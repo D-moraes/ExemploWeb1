@@ -61,11 +61,39 @@ console.log(valor1 == valor2);// COMPARAÇÃO
 console.log(valor1 === valor2);// VALOR E TIPO (estritamente igual)
 
 
-
-
-
-
-
 //(Metodo)
 //{Objeto}
 //[Array]
+
+/***************************************************************************************/
+
+//EXERCICIOS
+
+//1)
+var p=50;
+var v=0.10*p;
+
+var precoFinal = p-v;
+console.log(precoFinal);
+
+
+//2)
+let a=20;
+let b=10;
+
+let comparar=(a==20 && b>=10);
+console.log(comparar);
+
+
+//3)
+var user_login=true;
+var user_password=true;
+
+if (user_login==true){
+    console.log("Transação Realizada")
+}
+
+
+
+
+
