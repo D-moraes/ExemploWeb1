@@ -159,3 +159,45 @@ console.log(resultado)
 let usuario="dev";
 let logado=usuario =="dev"? "Usuario Logado":"Usuario invalido";
 console.log(logado)
+
+//ESTRUTURA DE REPETIÇÂO
+
+//O laço de repetição é ultilizado quando sabemos quantas vezes o codigo vai ser executado
+
+for (let i=1; i<=5; i++){
+    console.log("valor",i);
+}
+//Declaração (i=1), Operação(i<5) e Inclemento(i++) 
+
+const linguagens=["Java", "Python", "C#", "php"];
+
+for (let i=0; i<linguagens.length;i++){
+    console.log("Linguagens", i, ":", linguagens[i])
+}
+
+const tecnologias=["JS", "HTML", "CSS"];
+for (let tec of tecnologias){
+    console.log("Estudando: ",tec)
+}
+
+const carros={marca:"Volks", modelo:"Fusca", ano: 1980};
+
+for (let dados in carros){
+    console.log(dados, ":", carros[dados])
+}
+
+//While - usamos quando não sabemos a quantidade de vezes 
+let numero=1;
+
+while(numero<=10){
+    console.log("Contagem",numero);
+    numero++;
+}
+
+//Declaração de uma variavel
+let num;
+while(num !== "0"){
+    num = prompt ("Digite um numero ou 0 para sair")
+    console.log("Você digitou", num)
+}
+    
